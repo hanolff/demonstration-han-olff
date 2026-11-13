@@ -11,7 +11,7 @@
 
 # run the setup script for user-defined functions and Google Sheets authentication
 source("scripts/01-setup.R")
-gsheets_auth() # authenticate google sheets access, this will open a browser window for authentication if not already authenticated, note this function is defined in script 01-setup.r
+gsheets_auth(mode="user", email="h.olff@rug.nl") # authenticate google sheets access, this will open a browser window for authentication if not already authenticated, note this function is defined in script 01-setup.r
 
 # load libraries specific for this script (not in 01-setup.R)
 
